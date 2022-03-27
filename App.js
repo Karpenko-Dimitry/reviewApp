@@ -1,7 +1,8 @@
 import React from 'react';
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
-import Home from './app/screens/Home/Home';
+import Navigation from './app/routes/homeStack';
 
-export default function App() {
-    return <Home />;
+function App() {
+    return <Navigation />;
 }
+
+export default App;
